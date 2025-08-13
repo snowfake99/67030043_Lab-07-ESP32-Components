@@ -12,7 +12,11 @@
 
 ## ความแตกต่างจาก Lab 7-1
 - Lab 7-1: ใช้ local component (ในเครื่อง)
+- คือไฟล์ component ถูกเก็บอยู่ในเครื่องของเรา (อยู่ในโปรเจกต์) และถูก include เข้ามาโดยตรง
 - Lab 7-2: ใช้ managed component จาก GitHub URL
+-คือดึง component มาจาก GitHub URL ผ่านระบบจัดการ component ของ ESP-IDF (Managed Components) ไม่ได้เก็บไฟล์ component ไว้ในเครื่องตั้งแต่แรก แต่ระบบจะดาวน์โหลดให้ตาม URL ที่กำหนด
+
+
 
 ## การใช้งาน
 1. เข้าไปในโฟลเดอร์ lab7-2_Managed_url_Component
